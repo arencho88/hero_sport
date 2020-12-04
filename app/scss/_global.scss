@@ -12,6 +12,7 @@ body{
 	font-weight: 400;
 	overflow-x: hidden;
 	max-width: 100%;
+	background-color: #0b0b0b;
 }
 a{
 	text-decoration: none;
@@ -42,6 +43,10 @@ button {
 	&:focus {
 		outline: none;
 	}
+}
+.big-container {
+	max-width: 1920px;
+	margin: 0 auto;
 }
 .container {
 	max-width: 1260px;

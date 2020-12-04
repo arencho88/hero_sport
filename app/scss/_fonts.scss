@@ -3,6 +3,7 @@
 	src: url("../fonts/StampborGrungeRussian.woff2") format("woff2"), 
 		  url("../fonts/StampborGrungeRussian.woff") format("woff");
 	font-weight: 400;
+	font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
 	src: url("../fonts/DecimaNovaPro.woff") format("woff"), 
 		  url("../fonts/DecimaNovaPro.woff2") format("woff2");
 	font-weight: 400;
+	font-display: swap;
 	
 }
 
@@ -18,4 +20,5 @@
 	src: url("../fonts/open-sans-v18-latin_cyrillic-700.woff") format("woff"), 
 		  url("../fonts/open-sans-v18-latin_cyrillic-700.woff2") format("woff2");
 	font-weight: 700;
+	font-display: swap;
 }
