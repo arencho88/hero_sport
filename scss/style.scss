@@ -6,7 +6,7 @@
 .header {
 	background-color: #000;
 	&__wrapper {
-		background-image: url(../images/header-bg.jpg);
+		background-image: url(../images/header-bg.webp);
 		background-repeat: no-repeat;
 		background-size: cover;
 		min-height: 812px;
@@ -174,7 +174,7 @@
 		}
 	}
 	&__content {
-		background-image: url(../images/questions-bg.jpg);
+		background-image: url(../images/questions-bg.webp);
 		background-repeat: no-repeat;
 		background-size: cover;
 		min-height: 850px;
@@ -199,7 +199,7 @@
 	}
 	&__box {
 		height: 120px;
-		background-image: url(../images/questions-border.png);
+		background-image: url(../images/questions-border.webp);
 		position: relative;
 		margin-bottom: 154px;
 	}
@@ -290,7 +290,7 @@
 		}
 	}
 	&__bottom {
-		background-image: url(../images/advantages-border.png);
+		background-image: url(../images/advantages-border.webp);
 		background-repeat: no-repeat;
 		text-align: center;
 		max-width: 1170px;
@@ -338,7 +338,7 @@
 
 // section program -------------------/
 .program {
-	background-image: url(../images/program-bg.jpg);
+	background-image: url(../images/program-bg.webp);
 	background-size: cover;
 	min-height: 850px;
 	padding-top: 151px;
@@ -520,7 +520,7 @@
 // section gallery -------------------/
 .gallery {
 	min-height: 800px;
-	background-image: url(../images/gallery-bg.jpg);
+	background-image: url(../images/gallery-bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -704,7 +704,7 @@
 
 // section regstration ---------------/
 .registration {
-	background-image: url(../images/registration-bg.jpg);
+	background-image: url(../images/registration-bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 650px;
@@ -751,7 +751,7 @@
 // section about ---------------------/
 .about {
 	min-height: 1050px;
-	background-image: url(../images/about-bg.jpg);
+	background-image: url(../images/about-bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 71px;
@@ -768,7 +768,7 @@
 	}
 	&__table-wrap {
 		min-height: 763px;
-		background-image: url(../images/about-table.png);
+		background-image: url(../images/about-table.webp);
 		background-repeat: no-repeat;
 		background-position: top left;
 		margin: 0 -25px;
@@ -830,7 +830,7 @@
 
 // footer ----------------------------/
 .footer {
-	background-image: url(../images/footer-bg.jpg);
+	background-image: url(../images/footer-bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 55px;
