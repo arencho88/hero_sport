@@ -6,10 +6,11 @@
 .header {
 	background-color: #000;
 	&__wrapper {
-		background-image: url(../images/header-bg.webp);
+		background-image: url(../images/header-bg.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
-		min-height: 812px;
+		background-position: top center;
+		// min-height: 812px;
 		padding: 103px 0 90px;
 	}
 	&__inner {
@@ -26,6 +27,17 @@
 		margin-top: 106px;
 		text-transform: uppercase;
 		font-weight: 700;
+	}
+	&__title-mob {
+		display: none;
+		font-family: 'Open Sans';
+		font-weight: 700;
+		font-size: 38px;
+		line-height: 38px;
+		text-transform: uppercase;
+		span {
+			color: #b12f2f;
+		}
 	}
 	&__descr {
 		font-size: 22px;
@@ -174,9 +186,10 @@
 		}
 	}
 	&__content {
-		background-image: url(../images/questions-bg.webp);
+		background-image: url(../images/questions-bg.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: center;
 		min-height: 850px;
 		padding-top: 235px;
 		text-align: center;
@@ -244,6 +257,7 @@
 	}
 	&__descr {
 		font-size: 32px;
+		font-weight: 700;
 		font-family: 'Open Sans', sans-serif;
 		margin-bottom: 25px;
 		text-transform: uppercase;
@@ -268,6 +282,7 @@
 	}
 	&__title {
 		font-size: 35px;
+		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		line-height: 51px;
@@ -338,10 +353,11 @@
 
 // section program -------------------/
 .program {
-	background-image: url(../images/program-bg.webp);
+	background-image: url(../images/program-bg.jpg);
 	background-size: cover;
-	min-height: 850px;
+	background-position: center;
 	padding-top: 151px;
+	padding-bottom: 70px;
 	text-align: center;
 	&__title {
 		max-width: 760px;
@@ -360,12 +376,13 @@
 	&__items-bottom {
 		display: flex;
 		justify-content: space-around;
+		flex-wrap: wrap;
 	}
 	&__item {
 		max-width: 223px;
 		font-size: 20px;
 		font-weight: 700;
-		margin-bottom: 84px;
+		margin: 0 30px 84px;
 		letter-spacing: 1px;
 		position: relative;
 		transition: all 0.2s;
@@ -405,6 +422,7 @@
 		margin-top: 8px;
 		margin-bottom: 22px;
 		font-size: 36px;
+		font-weight: 700;
 		text-transform: uppercase;
 
 	}
@@ -417,6 +435,7 @@
 	padding: 94px 0 70px;
 	&__title {
 		font-size: 42px;
+		font-weight: 700;
 		font-family: 'Open Sans', sans-serif;
 		text-transform: uppercase;
 		margin-bottom: 40px;
@@ -519,11 +538,11 @@
 
 // section gallery -------------------/
 .gallery {
-	min-height: 800px;
 	background-image: url(../images/gallery-bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	background-position: center;
+	padding-bottom: 66px;
 	text-align: center;
 	padding-top: 67px;
 	&__title {
@@ -541,6 +560,7 @@
 	&__content {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 		max-width: 840px;
 		margin: 0 auto;
 	}
@@ -568,7 +588,7 @@
 	}
 	&__img {
 		position: absolute;
-		left: -68px;
+		left: 0;
 		top: 3px;
 	}
 	&__info {
@@ -674,6 +694,7 @@
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 30px;
+		padding-right: 15px;
 	}
 	&__img {
 		width: 270px;
@@ -704,11 +725,11 @@
 
 // section regstration ---------------/
 .registration {
-	background-image: url(../images/registration-bg.webp);
+	background-image: url(../images/registration-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 650px;
-	padding: 151px 0 0;
+	background-position: center;
+	padding: 151px 0 90px;
 	margin-bottom: 87px;
 	&__subtitle {
 		font-size: 20px;
@@ -736,7 +757,7 @@
 		text-align: center;
 		margin: 0 auto;
 		font-size: 32px;
-		line-height: 44px;
+		line-height: 38px;
 		font-weight: 700;
 		font-family: 'Open Sans', sans-serif;
 		text-transform: uppercase;
@@ -750,11 +771,12 @@
 
 // section about ---------------------/
 .about {
-	min-height: 1050px;
-	background-image: url(../images/about-bg.webp);
+	background-image: url(../images/about-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	padding-top: 71px;
+	padding-bottom: 61px;
 	&__title {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 50px;
@@ -830,11 +852,12 @@
 
 // footer ----------------------------/
 .footer {
-	background-image: url(../images/footer-bg.webp);
+	background-image: url(../images/footer-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	padding-top: 55px;
-	min-height: 650px;
+	overflow-x: hidden;
 	&__title {
 		font-size: 41px;
 		font-weight: 700;

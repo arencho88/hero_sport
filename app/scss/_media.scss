@@ -1,0 +1,928 @@
+@media (max-width: 1300px){
+	.about {
+		&__table-wrap {
+			background-image: none;
+			margin: 0;
+			padding: 36px 0 0 0;
+		}
+	}
+}
+
+
+@media (max-width: 1280px){
+	.questions {
+		&__box {
+			background-image: url(../images/questions-border-mini.png);
+			background-repeat: no-repeat;
+			max-width: 750px;
+			margin: 0 auto 100px auto;
+		}
+		&__box-text {
+			left: 38px;
+			width: 90%;
+		}
+	}
+	.advantages {
+		&__bottom {
+			background-image: url(../images/advantages-border-mini.png);
+			max-width: 750px;
+			padding: 32px 15px 35px;
+		}
+		&__bottom-title {
+			margin-bottom: 25px;
+			font-size: 25px;
+		}
+	}
+}
+
+
+@media (max-width: 1200px){
+	.header {
+		&__wrapper {
+			padding: 60px 0 90px;
+		}
+		&__subtitle {
+			letter-spacing: 2px;
+		}
+		&__title {
+			font-size: 50px;
+			margin-top: 82px;
+		}
+		&__descr {
+			margin-top: 100px;
+		}
+	}
+	.questions {
+		&__content {
+			padding: 100px 0;
+			min-height: auto;
+		}
+		&__descr {
+			font-size: 28px;
+		}
+	}
+	.program {
+		&__subtitle {
+			font-size: 28px;
+		}
+	}
+	.slider {
+		&__left-img {
+			width: 100%;
+		}
+		&__right-img {
+			width: 100%;
+		}
+	}
+	.slick {
+		&-prev {
+			left: 0;
+		}
+		&-next {
+			right: 0;
+		}
+	}
+	.baduk {
+		&__info {
+			position: relative;
+			z-index: 2;
+			padding: 200px 0 50px 0;
+			margin-left: auto;
+			max-width: 780px;
+		}
+		&__btn-wrap {
+			position: relative;
+			z-index: 2;
+		}
+	}
+	.trainers {
+		padding: 50px 0 43px;
+		&__title {
+			position: static;
+			padding-bottom: 50px;
+		}
+	}
+
+}
+
+
+@media (max-width: 1190px){
+	.advantages {
+		&__info {
+			padding-left: 0;
+			max-width: 630px;
+			margin-left: auto;
+			position: relative;
+			z-index: 2;
+		}
+	}
+	.about {
+		&__title {
+			font-size: 42px;
+		}
+		&__table {
+			justify-content: center;
+		}
+		&__item {
+			width: 50%;
+			margin-bottom: 80px;
+		}
+		&__item--not-icon {
+			position: static;
+			transform: translateX(0);
+			margin: 0 auto 30px auto;
+		}
+		&__btn {
+			position: static;
+			transform: translateX(0);
+			margin: 0 auto;
+			display: block;
+		}
+	}
+	.footer {
+		&__item-title {
+			font-size: 42px;
+			
+		}
+	}
+}
+
+
+@media (max-width: 1080px){
+	.questions {
+		&__content {
+			padding: 0 0 100px;
+		}
+		&__box {
+			margin: 0 auto 30px auto;
+		}
+		&__title {
+			max-width: 630px;
+			line-height: 55px;
+		}
+		&__subtitle {
+			line-height: 30px;
+		}
+	}
+	.program {
+		padding: 50px 0;
+	}
+	.slider {
+		padding: 50px 0;
+	}
+}
+
+
+@media (max-width: 1020px){
+	.questions {
+		&__items {
+			flex-wrap: wrap;
+			padding-bottom: 50px;
+			justify-content: center;
+		}
+		&__item {
+			margin: 0 50px 30px;
+		}
+	}
+}
+
+
+@media (max-width: 1002px){
+	.header {
+		&__wrapper {
+			padding: 50px 0 50px;
+		}
+		&__subtitle {
+			letter-spacing: 1px;
+		}
+		&__title {
+			font-size: 46px;
+			line-height: 46px;
+			margin-top: 100px;
+		}
+		&__descr {
+			margin-top: 80px;
+			font-size: 20px;
+		}
+		&__question {
+			font-size: 28px;
+			line-height: 28px;
+		}
+		&__form {
+			margin-top: 20px;
+		}
+	}
+	.form {
+		flex-wrap: wrap;
+		&__name,
+		&__mail,
+		&__tel {
+			margin-bottom: 20px;
+		}
+	}
+	.questions {
+		&__box {
+			margin-bottom: 60px;
+		}
+		&__descr {
+			font-size: 20px;
+		}
+	}
+	.advantages {
+		&__bottom {
+			padding: 45px 15px 35px;
+		}
+		&__bottom-title {
+			font-size: 20px;
+		}
+	}
+	.program {
+		&__subtitle {
+			font-size: 20px;
+		}
+	}
+	.baduk {
+		&__name {
+			font-size: 70px;
+			&-bottom {
+				line-height: 50px;
+			}
+		}
+	}
+	.registration {
+		&__subtitle {
+			margin-bottom: 90px;
+		}
+	}
+}
+
+
+@media (max-width: 956px){
+	.program {
+		&__item {
+			margin-bottom: 50px;
+		}
+	}
+}
+
+
+@media (max-width: 880px){
+	.questions {
+		padding: 0;
+		&__items {
+			padding-bottom: 0;
+		}
+		&__item {
+			max-width: 600px;
+			margin: 65px 0 65px;
+		}
+	}
+}
+
+
+@media (max-width: 800px){
+.baduk {
+	&__info {
+		flex-wrap: wrap;
+	}
+	&__descr {
+		margin-top: 50px;
+	}
+}
+}
+
+
+@media (max-width: 780px) {
+	.questions {
+		&__box {
+			background-image: none;
+		}
+		&__box-items {
+			flex-wrap: wrap;
+			padding-top: 80px;
+			max-width: 500px;
+			margin: 0 auto;
+		}
+		&__box-item-wrap {
+			margin-bottom: 30px;
+			width: 50%;
+			text-align: left;
+			&:nth-child(2){
+				order: 2;
+			}
+			&:nth-child(3){
+				order: 2;
+				text-align: right;
+			}
+			&:nth-child(4){
+				text-align: right;
+			}
+		}
+		&__box-item {
+			width: max-content;
+			display: inline-block;
+		}
+		&__title {
+			line-height: 50px;
+		}
+	}
+	.advantages {
+		&__bottom {
+			background-image: none;
+			padding: 0px 0 35px;
+			margin-bottom: 30px;
+		}
+		&__quote {
+			font-size: 18px;
+			&::before {
+				font-size: 65px;
+			}
+		}
+		&__quote-top {
+			font-size: 18px;
+		}
+	}
+	.slider {
+		&__before {
+			width: 85px;
+			height: 30px;
+			padding-top: 3px;
+		}
+		&__after {
+			width: 85px;
+			height: 30px;
+			padding-top: 3px;
+		}
+	}
+	.gallery {
+		&__title {
+			margin-bottom: 30px;
+			font-size: 36px;
+			span {
+				line-height: 50px;
+			}
+		}
+		&__box {
+			width: 100%;
+		}
+		&__top-items {
+			width: max-content;
+			margin: 0 auto;
+		}
+		&__bottom-items {
+			width: max-content;
+			margin: 0 auto;
+		}
+	}
+	.about {
+		&__title {
+			font-size: 36px;
+			margin-bottom: 50px;
+		}
+		&__item {
+			width: 100%;
+			font-size: 18px;
+			min-height: auto;
+		}
+	}
+	.footer {
+		&__title {
+			font-size: 36px;
+			margin-bottom: 60px;
+		}
+		&__item-title {
+			font-size: 28px;
+		}
+		&__item-line {
+			font-size: 20px;
+    		line-height: 26px;
+		}
+		.slick-list {
+			margin-bottom: 60px;
+		}
+		.slick-dots {
+			li {
+				button {
+					font-size: 28px;
+				}
+			}
+		}
+	}
+}
+
+
+@media (max-width: 700px){
+	.header {
+		&__wrapper {
+			padding: 40px 0 30px;
+		}
+		&__subtitle {
+			letter-spacing: 0;
+		}
+		&__title {
+			font-size: 36px;
+			line-height: 36px;
+			margin-top: 60px;
+		}
+		&__descr {
+			font-size: 16px;
+		}
+		&__question {
+			font-size: 20px;
+			line-height: 20px;
+		}
+	}
+	.form {
+		&__name,
+		&__mail,
+		&__tel{
+			height: 40px;
+			max-width: 200px;
+		}
+		&__submit {
+			padding: 0 30px 0px 30px;
+			height: 40px;
+		}
+	}
+	.questions {
+		&__title {
+			font-size: 36px;
+			line-height: 36px;
+			max-width: 570px;
+		}
+	}
+	.advantages {
+		&__title {
+			text-align: center;
+		}
+		&__img {
+			width: 400px;
+		}
+	}
+	.program {
+		&__title {
+			font-size: 36px;
+			margin-bottom: 60px;
+		}
+		&__item {
+			font-size: 18px;
+		}
+	}
+	.slider {
+		&__title {
+			font-size: 36px;
+			margin-bottom: 30px;
+		}
+		&__info-name {
+			font-size: 20px;
+		}
+		&__info-flow {
+			font-size: 14px;
+		}
+	}
+	.baduk {
+		min-height: auto;
+		&__img {
+			width: 400px;
+		}
+		&__name {
+			font-size: 50px;
+		}
+		&__info {
+			padding: 145px 0 50px 0;
+		}
+	}
+	.trainers {
+		&__title {
+			font-size: 28px;
+			&-bottom {
+				font-size: 36px;
+				line-height: 42px;
+			}
+		}
+	}
+	.registration {
+		padding: 50px 0 50px;
+		&__subtitle {
+			font-size: 18px;
+		}
+	}
+}
+
+
+@media (max-width: 650px){
+	.trainers {
+		&__box {
+			padding-left: 0;
+		}
+		&__item {
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			padding-right: 0;
+			margin-bottom: 30px;
+		}
+		&__info {
+			max-width: 100%;
+			width: 100%;
+			text-align: center;
+			margin-left: 0;
+		}
+		&__name-block {
+			margin-top: 10px;
+			margin-bottom: 15px;
+			line-height: 35px;
+		}
+		&__name {
+			display: inline-block;
+		}
+		&__surname {
+			display: inline-block;
+		}
+	}
+}
+
+
+@media (max-width: 600px){
+	.header {
+		&__wrapper {
+			background-image: url(../images/header-bg-small.jpg);
+			background-size: 600px;
+			padding: 10px 0 30px;
+		}
+		&__subtitle {
+			font-size: 16px;
+		}
+		&__title {
+			font-size: 28px;
+			line-height: 28px;
+			margin-top: 45px;
+		}
+		&__title-mob {
+			display: block;
+		}
+	}
+	.questions {
+		&__title {
+			font-size: 28px;
+			line-height: 28px;
+			max-width: 450px;
+		}
+		&__subtitle {
+			font-size: 24px;
+		}
+	}
+	.advantages {
+		&__title {
+			font-size: 28px;
+			line-height: 32px;
+		}
+	}
+	.program {
+		&__title {
+			font-size: 28px;
+		}
+	}
+	.slider {
+		&__title {
+			font-size: 28px;
+			margin-bottom: 20px;
+		}
+		&__descr {
+			font-size: 16px;
+		}
+		&__before {
+			width: 60px;
+			height: 25px;
+		}
+		&__after {
+			width: 60px;
+			height: 25px;
+		}
+	}
+	.gallery {
+		&__title {
+			font-size: 28px;
+			span {
+				line-height: 34px;
+			}
+		}
+	}
+	.trainers {
+		&__name,
+		&__surname {
+			font-size: 26px;
+		}
+	}
+	.registration {
+		&__title {
+			font-size: 28px;
+			line-height: 32px;
+		}
+	}
+	.about {
+		&__title {
+			font-size: 28px;
+		}
+	}
+	.footer {
+		padding-top: 30px;
+		&__title {
+			font-size: 28px;
+			margin-bottom: 40px;
+		}
+		&__item-title {
+			font-size: 24px;
+		}
+		&__item-line {
+			font-size: 16px;
+    		line-height: 20px;
+		}
+		.slick-list {
+			margin-bottom: 40px;
+		}
+		.slick-dots {
+			li {
+				button {
+					font-size: 24px;
+				}
+			}
+		}
+	}
+}
+
+
+@media (max-width: 580px){
+	.program {
+		&__title {
+			margin-bottom: 30px;
+		}
+		&__item{
+			margin-bottom: 25px;
+			&::before {
+				display: none;
+			}
+			&::after {
+				display: none;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 500px){
+	.header {
+		&__subtitle {
+			display: none;
+		}
+		&__title-mob {
+			font-size: 32px;
+			line-height: 32px;
+		}
+		&__title {
+			font-size: 24px;
+			line-height: 24px;
+			margin-top: 100px;
+		}
+		&__descr {
+			font-size: 14px;
+		}
+		&__question {
+			font-size: 18px;
+		}
+	}
+	.questions {
+		&__title {
+			font-size: 24px;
+		}
+		&__subtitle {
+			font-size: 21px;
+		}
+		&__descr {
+			font-size: 18px;
+		}
+	}
+	.advantages {
+		&__title {
+			font-size: 24px;
+			line-height: 28px;
+		}
+		&__item {
+			margin-bottom: 20px;
+			font-size: 18px;
+		}
+		&__bottom-title {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+		&__text {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+	.program {
+		&__title {
+			font-size: 24px;
+		}
+		&__subtitle {
+			font-size: 18px;
+		}
+	}
+	.slider {
+		&__title {
+			font-size: 24px;
+		}
+		&__info {
+			bottom: 10px;
+			&-name {
+				font-size: 18px;
+			}
+		}
+	}
+	.gallery {
+		&__title {
+			font-size: 24px;
+			span {
+				line-height: 26px;
+			}
+		}
+	}
+	.trainers {
+		&__title {
+			font-size: 24px;
+			&-bottom {
+				font-size: 28px;
+				line-height: 30px;
+			}
+		}
+	}
+	.registration {
+		&__title {
+			font-size: 24px;
+			line-height: 26px;
+		}
+		&__subtitle {
+			margin-bottom: 40px;
+		}
+	}
+	.about {
+		&__title {
+			font-size: 24px;
+		}
+	}
+	.footer {
+		&__title {
+			font-size: 24px;
+		}
+		&__item-title {
+			font-size: 20px;
+			margin-bottom: 25px;
+		}
+	}
+}
+
+
+@media (max-width: 450px){
+	.header {
+		&__wrapper {
+			background-size: 450px;
+			padding: 180px 0 30px;
+		}
+		&__title {
+			margin-top: 20px;
+		}
+		&__descr {
+			margin-top: 20px;
+		}
+	}
+	.form {
+		&__name,
+		&__mail,
+		&__tel{
+			max-width: 100%;
+		}
+		&__submit {
+			width: 100%;
+			font-size: 16px;
+		}
+	}
+	.questions {
+		&__item {
+			margin: 50px 0 50px;
+		}
+		&__box-items {
+			padding-top: 95px;
+		}
+		&__box-text {
+			font-size: 18px;
+			left: 22px;
+		}
+	}
+	.advantages {
+		&__title {
+			margin-bottom: 20px;
+		}
+		&__img {
+			width: 320px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+	.slider {
+		&__descr {
+			font-size: 14px;
+		}
+		&__before {
+			width: 50px;
+			height: 24px;
+		}
+		&__after {
+			width: 50px;
+			height: 24px;
+		}
+	}
+	.gallery {
+		background-image: none;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		&__top-items {
+			flex-wrap: wrap;
+			width: 100%;
+			margin: 0;
+		}
+		&__item {
+			width: 100%;
+			margin: 0 auto 10px auto;
+			max-width: 100%;
+		}
+		&__bottom-items {
+			flex-wrap: wrap;
+			width: 100%;
+			margin: 0;
+		}
+		&__img {
+			margin: 0 auto;
+		}
+	}
+	.baduk {
+		&__img {
+			width: 320px;
+		}
+		&__name {
+			font-size: 36px;
+			&-bottom {
+				line-height: 36px;
+			}
+		}
+		&__info {
+			padding: 115px 0 50px 0;
+		}
+	}
+	.trainers {
+		&__name,
+		&__surname {
+			font-size: 24px;
+		}
+	}
+	.registration {
+		&__subtitle {
+			font-size: 16px;
+			line-height: 20px;
+		}
+	}
+}
+
+
+@media (max-width: 400px){
+	.questions {
+		&__content {
+			padding: 50px 0;
+		}
+		&__box-item {
+			font-size: 18px;
+
+		}
+	}
+	.advantages {
+		&__img {
+			top: -15px;
+		}
+	}
+	.baduk {
+		&__btn {
+			text-align: center;
+		}
+		&__img {
+			left: -15px;
+		}
+	}
+}
+
+
+@media (max-width: 320px){
+	.header {
+		&__wrapper {
+			background-size: 320px;
+		}
+	}
+}
